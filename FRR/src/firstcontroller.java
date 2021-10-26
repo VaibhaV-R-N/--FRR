@@ -10,13 +10,14 @@ public class firstcontroller {
     private Button bone;
 
     @FXML
-    private Label lableone;
+    private Label lone;
 
     @FXML
     private TextField tfone;
 
     public void click(ActionEvent e){
-        System.out.println("clicked");
+        lone.setText(tfone.getText().toString());
+        
     }
 
     
