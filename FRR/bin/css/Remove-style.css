@@ -1,0 +1,30 @@
+#pane{
+    -fx-background-radius:24px;
+    -fx-border-radius:24px;
+}
+.button{
+    -fx-background-color:#430943;
+    -fx-border-radius:10px;
+    -fx-background-radius:15px;
+    -fx-text-fill:white;
+
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-text-fill:#430943;
+}
+.button:pressed{
+    -fx-background-color:#430943;
+    -fx-text-fill:white;
+
+}
+.text-field{
+    -fx-background-color:white;
+    -fx-background-radius:10px;
+    -fx-prompt-text-fill:#430943;
+}
+.root{
+    -fx-background-color:transparent;
+    -fx-background-image:url("dbg1.png");
+    -fx-background-size:stretch;
+}

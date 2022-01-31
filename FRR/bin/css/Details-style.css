@@ -1,0 +1,61 @@
+#pane{
+    -fx-background-radius:24px;
+    -fx-border-radius:24px;
+}
+.root{
+    -fx-background-color:transparent;
+    -fx-background-image:url("dbg1.png");
+}
+.button{
+    -fx-background-radius:15px;
+    -fx-border-radius:10px;
+    -fx-background-color:#430943;
+    -fx-text-fill:white;
+}
+.button:hover{
+    -fx-background-color:white;
+    -fx-text-fill:#430943;
+}
+.button:pressed{
+    -fx-background-color:#430943;
+    -fx-text-fill:white;
+}
+.table-view{
+    -fx-background-radius:15px;
+    -fx-border-radius:10px;
+    -fx-background-color:transparent;
+    -fx-text-fill:white;
+
+}
+.column{
+    -fx-background-radius:15px;
+    -fx-border-radius:10px;
+    /* -fx-background-color:#430943; */
+    
+   
+}
+
+.cell{
+    -fx-background-radius:15px;
+    -fx-border-radius:10px;
+    -fx-text-fill:#430943;
+}
+.cell-backgroud{
+    -fx-background-color:transparent;
+}
+.column-header-background{
+    -fx-background-color:transparent;
+}
+
+
+.column-header{
+    -fx-background-radius:15px;
+    -fx-border-radius:10px;
+    -fx-background-color:#430943;
+}
+.label{
+    -fx-text-fill:white;
+}
+#dlabel{
+    -fx-text-fill:#430943;
+}
